@@ -1,8 +1,61 @@
 extends ../layouts/main.jade
 
 block title
-	title Макет
+	title Final-Maket
 
-block content
-	main#home-page.container
-	
+	block content
+	.coln_right
+		.visit
+			a.button_visit Visit your profile!
+			p Check your self, you aren't looking well.
+			button.close
+				span.true ×
+		.sponsored
+				h6.sponsored_med_link Sponsored
+				img.med_link(src='assets/img/sponsored.jpg')
+				p It might be time to visit Iceland.
+					p Iceland is so chill, and everything looks cool here. Also, we heard the people are pretty nice. What are you waiting for?
+				button.Buy Buy a ticket
+		.likes.name
+			h6 Likes
+			a(href='#') - View All
+			ul.box
+				li.bos.jac
+					img.bos.aff(src='assets/img/jacob.png')
+					p Jacob Thornton @fat
+					.bpa
+						button.follow
+							span.men
+								img.follow.jac(src='assets/img/icon.png')
+								span + Follow
+				li.bos_mak
+					img.bos.aff(src='assets/img/mark.png')
+					p Mark Otto @mdo
+					.bpa
+						button.follow
+							span.men
+								img.follow.mar(src='assets/img/icon.png')
+								span + Follow
+		.qa
+			p Dave really likes these nerds, no one knows why though.
+		.boot
+			.trap
+				p © 2018 Bootstrap
+				a(href='#') About
+				a(href='#') Help
+				a(href='#') Terms
+				a(href='#') Privacy
+				a(href='#') Cookies
+				a(href='#') Ads 
+				a(href='#') Info
+				a(href='#') Brand
+				a(href='#') Blog
+				a(href='#') Status
+				a(href='#') Apps
+				a(href='#') Jobs
+				a(href='#') Advertise
+
+
+
+
+
